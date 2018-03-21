@@ -1,0 +1,63 @@
+body {
+    height: 90vh;
+    width: 98wh;
+}
+
+.container {
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.slide {
+    position: relative;
+    width: 85%;
+    margin: auto;
+    margin-top: -8vh;
+  overflow: hidden;
+}
+
+.container h1, .container h2,.container h3,.container h4,.container h5 {
+    text-align: center;
+}
+
+.container ul, .container p {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+ul * {
+    margin-left: 0% !important;
+}
+
+.container img {
+    display: block;
+    margin: auto;
+}
+.nav-button {
+    font-size: 16px;
+    margin: 5px;
+
+}
+
+@media only screen and (max-device-width: 600px) {
+
+    .nav-button {
+        font-size: calc(1.6vh + 1.6vw);
+        margin: calc(0.4vh + 0.4vw);
+    
+    }
+}
+
+ul, li {
+    margin-bottom: 5px !important;
+    margin-top: 5px !important;
+}
+
+pre {
+    margin: 0px;
+    padding: 2px;
+}
+
+li > * {
+    margin-left: 0px !important;
+}
