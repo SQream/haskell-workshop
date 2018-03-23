@@ -666,6 +666,7 @@ INSERT INTO t VALUES (1,2,3),(4,5,6);
 SELECT * FROM t;
 ```
 
+- Add the line `deriving (Show, Read)` at the end, this will enable us to use `show` (and `print`) and `read` on our `Query` data structure.
 
 ---
 
@@ -994,6 +995,7 @@ Clues:
 
 - Use `readQuery` to parse the query from the user
 - Use the function `repl` with your IO action as a parameters to create a REPL.
+- Write a value of the type `Query` in the prompt to interpret it. For example: `Select [("x", "x")] (Values [[("x",1)]])`.
 
 ---
 
