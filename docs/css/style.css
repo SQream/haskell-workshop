@@ -11,7 +11,7 @@ body {
 
 .slide {
     position: relative;
-    width: 85%;
+    width: 82%;
     margin: auto;
     margin-top: 2vh;
   overflow: hidden;
@@ -22,11 +22,11 @@ body {
 }
 
 .container ul, .container p {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 12%;
+    margin-right: 12%;
 }
 ul * {
-    margin-left: 0% !important;
+    margin-left: 5% !important;
 }
 
 .container img {
